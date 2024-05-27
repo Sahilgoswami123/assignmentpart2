@@ -1,0 +1,58 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Contact Us - Restaurant Ordering Platform</title>
+    <link rel="stylesheet" href="styles/styles.css">
+</head>
+<body>
+    
+    <header>
+        <h1>Restaurant Ordering Platform</h1>
+    </header>
+
+    <nav>
+        <ul class="nav-buttons">
+            <li><a href="index.html">Home</a></li>
+            <li><a href="about.html">About</a></li>
+            <li><a href="contact.html">Contact</a></li>
+        </ul>
+    </nav>
+
+    <main>
+        <section class="contact">
+            <h2>Contact Us</h2>
+            <p>If you have any questions or inquiries, please feel free to contact us using the form below:</p>
+            <form class="Form">
+                <label for="name">Name:</label>
+                <input type="text" id="name" name="name">
+                <label for="email">Email:</label>
+                <input type="email" id="email" name="email">
+                <label for="message">Message:</label>
+                <textarea id="message" name="message"></textarea>
+                <label for="members-count"> Number of Members who visited: </label>
+                <select name="members-count" id="members-count">
+                    <option value="1">1</option>
+                    <option value="2">2</option>
+                    <option value="3">3</option>
+                    <option value="4">4</option>
+                    <option value="5">5</option>
+                </select>
+                <label for="total-cost">Total Bill: </label>
+                <input type="text" name="total-cost" id="total-cost">
+                <button type="submit" id="submit">Send Message</button>
+                
+            </form>
+            <script src="scripts/script.js"></script>
+        </section>
+    </main>
+    
+    <footer>
+        <p>&copy; 2024 Restaurant Ordering Platform</p>
+        
+    </footer>
+    
+
+</body>
+</html>
